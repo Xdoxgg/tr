@@ -1,0 +1,7 @@
+diff a/app.by b/app.by	(rejected hunks)
+@@ -8,4 +8,4 @@ def subtract(a, b):
+ 
+ # app.py
+ def multiply(a, b):
+-    return a + b  # Ошибка: должно быть a * b
++    return a * b  # Исправлено: правильное умножение

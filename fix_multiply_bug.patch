@@ -1,0 +1,44 @@
+diff --git a/0001-Introduce-bug-in-multiply-function.patch b/0001-Introduce-bug-in-multiply-function.patch
+new file mode 100644
+index 0000000..80652c2
+--- /dev/null
++++ b/0001-Introduce-bug-in-multiply-function.patch
+@@ -0,0 +1,25 @@
++From c410b7ca9b74e82c2d053dea4e95151c24d88226 Mon Sep 17 00:00:00 2001
++From: Xdoxgg <m.zhuk007@gmail.com>
++Date: Wed, 19 Mar 2025 21:07:30 +0300
++Subject: [PATCH] Introduce bug in multiply function
++
++---
++ app.by | 3 ++-
++ 1 file changed, 2 insertions(+), 1 deletion(-)
++
++diff --git a/app.by b/app.by
++index 7cb3a77..66c7078 100644
++--- a/app.by
+++++ b/app.by
++@@ -5,6 +5,7 @@ def add(a, b):
++ def subtract(a, b):
++     return a - b
++ 
+++
++ # app.py
++ def multiply(a, b):
++-    return a * b
+++    return a + b  # Ошибка: должно быть a * b
++-- 
++2.25.1
++
+diff --git a/app.by b/app.by
+index 66c7078..f24c1e0 100644
+--- a/app.by
++++ b/app.by
+@@ -8,4 +8,4 @@ def subtract(a, b):
+ 
+ # app.py
+ def multiply(a, b):
+-    return a + b  # Ошибка: должно быть a * b
++    return a * b  # Исправлено: правильное умножение
+diff --git a/fix_multiply_bug.patch b/fix_multiply_bug.patch
+new file mode 100644
+index 0000000..e69de29
