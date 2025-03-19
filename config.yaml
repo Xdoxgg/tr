@@ -1,0 +1,25 @@
+# Конфигурация приложения
+app:
+  name: MyApp
+  version: 1.0.0
+  description: Это пример приложения, использующего YAML для конфигурации.
+
+# Настройки базы данных
+database:
+  host: localhost
+  port: 5432
+  username: user
+  password: password
+  dbname: my_database
+
+# Настройки сервера
+server:
+  host: 0.0.0.0
+  port: 8080
+  ssl: true
+
+# Список поддерживаемых языков
+supported_languages:
+  - English
+  - Русский
+  - Español
