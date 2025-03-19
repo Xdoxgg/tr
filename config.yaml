@@ -3,7 +3,7 @@ app:
   name: MyApp
   version: 1.0.0
   description: Это пример приложения, использующего YAML для конфигурации.
-
+adasdad
 # Настройки базы данных
 database:
   host: localhost
