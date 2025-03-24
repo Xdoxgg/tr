@@ -1,9 +1,10 @@
-package main;
+package main
 
 
 
-import fmt;
+import fmt
 
-fucn main(){
+
+fucn main() {
 	fmt.Println("hello world")
 }
